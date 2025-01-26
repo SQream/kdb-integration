@@ -11,7 +11,7 @@ mvn clean install
 `
 
 ## Execution:
-Fill the application properties file with the relevant parameters and run:
+Fill the application properties file (src/main/resources/application.properties) with the relevant parameters and run:
 
 `java -jar target/demo-0.0.1-SNAPSHOT.jar
 `
