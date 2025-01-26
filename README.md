@@ -1,6 +1,7 @@
 # kdb-integration
 Demo project for data insertion from KDB+ to SQreamDB
 
+Utilizing javakdb connector to connect kdb+ (https://github.com/KxSystems/javakdb/blob/master/docs/build.md)
 ## Prerequisites:
 - Java 17
 - Maven 3.6.3 or higher
