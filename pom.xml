@@ -67,9 +67,21 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.kx</groupId>
+			<artifactId>jdbc</artifactId>
+			<version>1.0-SNAPSHOT</version>  <!-- or whatever version you built -->
+		</dependency>
+		<dependency>
 			<groupId>com.sqream</groupId>
 			<artifactId>sqream-jdbc</artifactId>
 			<version>5.4.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
