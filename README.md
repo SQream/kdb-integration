@@ -8,6 +8,9 @@ Utilizing javakdb connector to connect kdb+ (https://github.com/KxSystems/javakd
 
 ## Installation:
 `mvn install:install-file -Dfile=lib/javakdb-2.0.jar -DgroupId=com.kx -DartifactId=kx -Dversion=2.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile='lib/jdbc-1.0.jar' -DgroupId='com.kx' -DartifactId=jdbc-1.0-SNAPSHOT-jar-with-dependencies -Dversion='1.0-SNAPSHOT' -Dpackaging=jar
+
 mvn clean install
 `
 
